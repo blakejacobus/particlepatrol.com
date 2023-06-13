@@ -17,4 +17,6 @@ Air quality index (AQI) aggregation for specific Arizona areas of interest. Sour
 - [ ] Develop front end presentation of database information
 
 ### API Sample Call
-https://www.airnowapi.org/aq/observation/zipCode/historical/?format=application/json&zipCode=85142&date=2023-06-11T00-0000&distance=25&API_KEY={REDACTED}
+| method | endpoint | headers | auth |
+| ------ | -------- | ------- | ---- |
+| GET | historical: https://www.airnowapi.org/aq/observation/zipCode/historical/ <br> current: https://www.airnowapi.org/aq/observation/zipCode/current/ | ?format=application/json&zipCode=12345&date=YYYY-MM-DDT00-0000&distance=25 | &API_KEY={REDACTED} |
