@@ -5,6 +5,7 @@ Air quality index (AQI) aggregation for specific Arizona areas of interest. Sour
 
 ## Objectives
 - [X] Use Python to issue API call that collects current data at specific location
+- [ ] Use `boto3` to pull API key from AWS Secrets Manager
 - [ ] Review and parse response to collect required information [https://docs.airnowapi.org/forecastsbyzip/docs]
 - [ ] Expand API call to multiple locations
 - [ ] Collect, parse, and store historical data (database may be needed)
